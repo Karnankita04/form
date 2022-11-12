@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table class="personal-info">
+                <tr>
+                    <td>Application Name:</td>
+                    <td>
+                        <input type="text" name="a.name" maxlength="25" placeholder="Enter your name"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Father's Name:</td>
+                    <td>
+                        <input type="text" name="f.name" maxlength="25" placeholder="Enter your father's name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mother's Name:</td>
+                    <td>
+                        <input type="text" name="m.name" maxlength="25" placeholder="Enter your Mother's name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" name="gender" />Male
+                        <input type="radio" name="gender" />Female
+                        <input type="radio" name="gender" />Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <input type="date" name="dob" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nationality:</td>
+                    <td>
+                        <select name="nationality">
+                            <option disabled selected>select</option>
+                            <option>India</option>
+                            <option>Non-indian</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Religian:</td>
+                    <td>
+                        <select name="religian">
+                            <option disabled selected>select</option>
+                            <option>Hindu</option>
+                            <option>Muslim</option>
+                            <option>Muslim</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Category:</td>
+                    <td>
+                        <select name="religian">
+                            <option disabled selected>select</option>
+                            <option>Hindu</option>
+                            <option>Muslim</option>
+                            <option>Muslim</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aaadhar Number:</td>
+                    <td>
+                        <input type="text" maxlength="16" name="UID" placeholder="Enter your aadhar numbers" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Person with Disability:</td>
+                    <td>
+                        <select name="PWD">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Are you Only Child:</td>
+                    <td>
+                        <select name="single-child">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Place of residence</td>
+                    <td>
+                        <select name="Por">
+                            <option disabled selected>select</option>
+                            <option>Urban</option>
+                            <option>Rural</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>You need scribe/reader ?:</td>
+                    <td>
+                        <select name="single-child">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Academic details</legend>
+            <table border="1" class="academic-details">
+                <tr>
+                    <th>S. No.</th>
+                    <th>Exam passed</th>
+                    <th>Board/University</th>
+                    <th>Result awaited</th>
+                    <th>year</th>
+                    <th>percentage</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>
+                        <select name="exam_passed">
+                            <option disabled selected>select</option>
+                            <option>Btech</option>
+                            <option>Diploma</option>
+                            <option>12th</option>
+                            <option>10th</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="board">
+                            <option disabled selected>select</option>
+                            <option>CBSE</option>
+                            <option>ICSE</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="result-awaited">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="year">
+                            <option disabled selected>select</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="percentage" size="10" placeholder="optional" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>
+                        <select name="exam_passed">
+                            <option disabled selected>select</option>
+                            <option>Btech</option>
+                            <option>Diploma</option>
+                            <option>12th</option>
+                            <option>10th</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="board">
+                            <option disabled selected>select</option>
+                            <option>CBSE</option>
+                            <option>ICSE</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="result-awaited">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="year">
+                            <option disabled selected>select</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="percentage" size="10" placeholder="optional" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>
+                        <select name="exam_passed">
+                            <option disabled selected>select</option>
+                            <option>Btech</option>
+                            <option>Diploma</option>
+                            <option>12th</option>
+                            <option>10th</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="board">
+                            <option disabled selected>select</option>
+                            <option>CBSE</option>
+                            <option>ICSE</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="result-awaited">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="year">
+                            <option disabled selected>select</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="percentage" size="10" placeholder="optional" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>
+                        <select name="exam_passed">
+                            <option disabled selected>select</option>
+                            <option>Btech</option>
+                            <option>Diploma</option>
+                            <option>12th</option>
+                            <option>10th</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="board">
+                            <option disabled selected>select</option>
+                            <option>CBSE</option>
+                            <option>ICSE</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="result-awaited">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="year">
+                            <option disabled selected>select</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="percentage" size="10" placeholder="optional" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>
+                        <select name="exam_passed">
+                            <option disabled selected>select</option>
+                            <option>Btech</option>
+                            <option>Diploma</option>
+                            <option>12th</option>
+                            <option>10th</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="board">
+                            <option disabled selected>select</option>
+                            <option>CBSE</option>
+                            <option>ICSE</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="result-awaited">
+                            <option disabled selected>select</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="year">
+                            <option disabled selected>select</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                            <option>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="text" name="percentage" size="10" placeholder="optional" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset class="mailing_main">
+            <legend>Mailing Address</legend>
+            <table class="mailing_table">
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <input type="text" name="mail.address" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td>
+                        <input type="text" name="mail.city" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>State:</td>
+                    <td>
+                        <input type="text" name="mail.state" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pin Code.</td>
+                    <td>
+                        <input type="number" name="mail.pin_code" id="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email Address:</td>
+                    <td>
+                        <input type="email" name="mail.email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td>
+                        <input type="number" name="mail.mobile" id="" />
+                    </td>
+                </tr>
+            </table>
+            <hr />
+            <div class="upload_container">
+                <div class="upload-box">
+                    <p>Upload your image covering 75% face area</p>
+                    <input type="file" name="certificate" />
+                    <label for="certificate" onclick="document.getElementsByName('certificate')[0].click();">Select
+                        File</label>
+                    <button>Upload</button>
+                </div>
+                <div class="upload-box">
+                    <p>Upload your image covering 75% face area</p>
+                    <input type="file" name="signature" />
+                    <label for="signature" onclick="document.getElementsByName('signature')[0].click();">Select
+                        File</label>
+                    <button>Upload</button>
+                </div>
+                <div class="upload-box">
+                    <p>Upload your image covering 75% face area</p>
+                    <input type="file" name="profile_img" />
+                    <label for="profileimg" onclick="document.getElementsByName('profile_img')[0].click();">Select
+                        File</label>
+                    <button>Upload</button>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="declaretions">
+            <legend>Declaretions</legend>
+            <input type="checkbox" name="accept_lic" />
+            <label for="accept_lic">
+                I hereby, solemnly declare that information provided by me in the form
+                is true to the best of my knowledge and belief.
+            </label>
+            <div class="btn_group">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit Form</button>
+            </div>
+        </fieldset>
+    </form>
+    <br />
+    <br />
+    <br />
+</body>
+
+</html>
+<!-- StyleSheet CSS (style.css)
+       /*
+        ###### ######## ## ## ## ######## ###### ## ## ######## ######## ########
+        ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+        ## ## #### ## ## ## ## ## ## ## ##
+        ###### ## ## ## ###### ###### ######### ###### ###### ##
+        ## ## ## ## ## ## ## ## ## ## ##
+        ## ## ## ## ## ## ## ## ## ## ## ## ##
+        ###### ## ## ######## ######## ###### ## ## ######## ######## ##
+       */
+       :root {
+        --theme_primary_swatches: #510077;
+        --theme_primary_size: 20px;
+       }
+       fieldset {
+        border: 2px solid var(--theme_primary_swatches);
+        border-radius: 10px;
+        margin-top: calc(var(--theme_primary_size)+50px);
+        position: relative;
+       }
+       legend {
+        font-size: calc(var(--theme_primary_size) * 1.5);
+        text-transform: uppercase;
+        filter: hue-rotate(-20deg);
+        padding: 0 10px;
+        color: var(--theme_primary_swatches);
+        margin: 0 auto;
+        font-weight: bold;
+       }
+       table {
+        margin-left: 20px;
+        margin: 0 auto;
+       }
+       table.personal-info {
+        border-spacing: 10vw 0;
+       }
+       tr td:nth-child(1) {
+        font-size: var(--theme_primary_size);
+        font-weight: bold;
+        color: (var(--theme_primary_swatches));
+        padding: 10px 0px; 
+       }
+       input:not([type="file"]) {
+        font-size: var(--theme_primary_size);
+        padding: 5px 10px;
+        border-radius: 10px;
+        outline: 0;
+        border: 1px solid rgb(168, 166, 166);
+       }
+       input:not([type="file"]):not([type="checkbox"]):not([type="radio"]):focus {
+        box-shadow: 1px 1px 1px 1px var(--theme_primary_swatches);
+       }
+       select {
+        width: 250px;
+        padding: 5px 15px;
+        font-size: 20px;
+        border-radius: 10px;
+       }
+       select:focus {
+        outline: 0;
+        box-shadow: 1px 1px 1px 1px var(--theme_primary_swatches);
+       }
+       .academic-details {
+        text-align: center;
+        width: 90%;
+        border: none;
+        position: relative;
+        ;
+       }
+       .academic-details td {
+        min-width: 60px;
+        padding: 5px 10px;
+        border: none;
+       }
+       .academic-details th {
+        font-size: var(--theme_primary_size);
+        border: none;
+       }
+       .academic-details td select {
+        width: auto;
+       }
+       .mailing_table {
+        margin: 0 auto;
+        border-spacing: 10vw 0;
+       }
+       .mailing_main {
+        text-align: center;
+       }
+       .mailing_main hr {
+        opacity: .4;
+        width: 80%; 
+        border-top: 2px solid var(--theme_primary_swatches);
+       }
+       .upload-box input[type="file"] {
+        display:none;
+       }
+       .upload-box label{
+        padding:5px 40px 5px 5px;
+        cursor: pointer;
+        color:rgb(186, 124, 228);
+       }
+       button {
+        height: 30px;
+        padding: 0px 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        background-color: rgb(149, 100, 206);
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        outline: 0;
+        border: 0;
+        transition: all .5s ease-in-out;
+        background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+       }
+       button:hover {
+        filter: brightness(.5);
+        transform: scale(1.1)
+       }
+       .upload-box p {
+        margin-bottom: 3px;
+        opacity: .5;
+       }
+       .declaretions {
+        text-align: center;
+       }
+       .declaretions button {
+        transform: scale(1.5);
+       }
+       .declaretions .btn_group {
+        width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-bottom: 30px;
+       }
+       .declaretions input {
+        transform: scale(1.5);
+       }
+       .declaretions label {
+        font-size: 20px;
+       }  -->
